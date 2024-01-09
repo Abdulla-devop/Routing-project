@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom"
 
 export function DsCourse(){
     const navigate = useNavigate();
+    // using navigation to navigate pages
     return(
         <div>
                      <div className="navbar bg-base-100">
@@ -18,7 +19,7 @@ export function DsCourse(){
         </button>
     </div>
     </div>
-    {/* course details */}
+    {/* course details with image card */}
 
         <div className="card w-96 bg-base-100 shadow-xl">
    <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSQP_x9y2Q5RV0XbojJp7oowNIqaapAjT40A&usqp=CAU" alt="Data science image" /></figure>

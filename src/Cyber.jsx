@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom"
 
 export function CyberCourse(){
     const navigate = useNavigate();
+    // using navigation to navigate pages
     return(
         <div>
                          <div className="navbar bg-base-100">
@@ -19,7 +20,7 @@ export function CyberCourse(){
     </div>
     </div>
    
-      {/* course details with image */}
+      {/* course details with image card */}
 
      <div className="card w-96 bg-base-100 shadow-xl">
    <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEo9oESV3sEH3vgXVC9cAx7oG67p9k9Cnb6g&usqp=CAU" alt="Cyber Security image" /></figure>

@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom"
 
 export function Career(){
     const navigate = useNavigate();
+    // using navigation to navigate pages
     return(
         <div>
          <div className="navbar bg-base-100">
@@ -18,6 +19,8 @@ export function Career(){
         </button>
     </div>
     </div>
+
+      {/* career bio with image card */}
 
         <div className="card w-96 bg-base-100 shadow-xl">
         <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKxpvZS0kz3MN4qPht41OGf1dZaXHj0XKOMA&usqp=CAU" alt="Career image" /></figure>

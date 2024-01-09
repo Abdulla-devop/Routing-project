@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom"
 
 export function FsdCourse(){
     const navigate = useNavigate();
+    // using navigation to navigate pages
     return(
         <div>
                   <div className="navbar bg-base-100">
@@ -19,7 +20,7 @@ export function FsdCourse(){
         </button>
     </div>
     </div>
-   {/* course details */}
+  {/* course details with image card */}
 
          <div className="card w-96 bg-base-100 shadow-xl">
   <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfvkGViTFAdkkzWXIpc6WVhYiEqDU8tLBZIw&usqp=CAU" alt="Full stck image" /></figure>
