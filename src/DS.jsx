@@ -18,6 +18,7 @@ export function DsCourse(){
         </button>
     </div>
     </div>
+    {/* course details */}
 
         <div className="card w-96 bg-base-100 shadow-xl">
    <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSQP_x9y2Q5RV0XbojJp7oowNIqaapAjT40A&usqp=CAU" alt="Data science image" /></figure>

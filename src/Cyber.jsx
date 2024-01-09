@@ -18,6 +18,8 @@ export function CyberCourse(){
         </button>
     </div>
     </div>
+   
+      {/* course details with image */}
 
      <div className="card w-96 bg-base-100 shadow-xl">
    <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEo9oESV3sEH3vgXVC9cAx7oG67p9k9Cnb6g&usqp=CAU" alt="Cyber Security image" /></figure>

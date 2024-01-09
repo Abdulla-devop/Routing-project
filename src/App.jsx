@@ -9,6 +9,7 @@ import { Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
+    // routers for all pages
    <div>
       <Routes>
      <Route exact path="/" element={<AllCourses/>}/>
